@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "Atheko Premium Laundry",
     description:
       "Premium laundry service in Kozhikode with dry cleaning, steam ironing, and pickup & delivery.",
-    images: ["/favicon.png"],
+    // images: ["/favicon.png"],
   },
   themeColor: "#ffffff",
   icons: {
