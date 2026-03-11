@@ -44,11 +44,11 @@ export const metadata: Metadata = {
     siteName: "Atheko",
     images: [
       {
-        url: "/48 X 48.png",
-        width: 50,
-        height: 50,
+        url: "/512 X 512.png",   // ← use ONLY this for OpenGraph
+        width: 512,
+        height: 512,
         alt: "Atheko Logo",
-      },
+      }
     ],
     locale: "en_US",
     type: "website",
