@@ -63,8 +63,11 @@ export const metadata: Metadata = {
   themeColor: "#ffffff",
   icons: {
     icon: [
-      { url: "/icon-48.png", sizes: "48x48", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" }
+      { url: "/16 X 16.png", sizes: "16x16", type: "image/png" },
+      { url: "/32 X 32.png", sizes: "32x32", type: "image/png" },
+      { url: "/48 X 48.png", sizes: "48x48", type: "image/png" },
+      { url: "/180 X 180.png", sizes: "180x180", type: "image/png" },
+      { url: "/512 X 512.png", sizes: "512x152", type: "image/png" },
     ],
     shortcut: ["/favicon.ico"],
     apple: [{ url: "/favicon.png" }],
