@@ -42,14 +42,14 @@ export const metadata: Metadata = {
       "Atheko Premium Laundry is a flagship brand under Collective Core Venture LLP, built with a vision to redefine modern fabric care through precision, professionalism, and sustainability. At Atheko, we believe laundry is not just a service — it's an experience that combines quality, convenience, and care.",
     url: "https://www.atheko.com",
     siteName: "Atheko",
-    images: [
-      {
-        url: "/512 X 512.png",   // ← use ONLY this for OpenGraph
-        width: 512,
-        height: 512,
-        alt: "Atheko Logo",
-      }
-    ],
+    // images: [
+    //   {
+    //     url: "/512 X 512.png",   // ← use ONLY this for OpenGraph
+    //     width: 512,
+    //     height: 512,
+    //     alt: "Atheko Logo",
+    //   }
+    // ],
     locale: "en_US",
     type: "website",
   },
