@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/favicon.png",
-        width: 192,
-        height: 192,
+        width: 100,
+        height: 100,
         alt: "Atheko Logo",
       },
     ],
