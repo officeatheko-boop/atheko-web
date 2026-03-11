@@ -27,7 +27,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-
 export const metadata: Metadata = {
   title: "Atheko Premium Laundry",
   description:
@@ -42,14 +41,14 @@ export const metadata: Metadata = {
       "Atheko Premium Laundry is a flagship brand under Collective Core Venture LLP, built with a vision to redefine modern fabric care through precision, professionalism, and sustainability. At Atheko, we believe laundry is not just a service — it's an experience that combines quality, convenience, and care.",
     url: "https://www.atheko.com",
     siteName: "Atheko",
-    // images: [
-    //   {
-    //     url: "/512 X 512.png",   // ← use ONLY this for OpenGraph
-    //     width: 512,
-    //     height: 512,
-    //     alt: "Atheko Logo",
-    //   }
-    // ],
+    images: [
+      {
+        url: "/512-x-512.png", 
+        width: 512,
+        height: 512,
+        alt: "Atheko Logo",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -58,23 +57,21 @@ export const metadata: Metadata = {
     title: "Atheko Premium Laundry",
     description:
       "Premium laundry service in Kozhikode with dry cleaning, steam ironing, and pickup & delivery.",
-    // images: ["/favicon.png"],
+    images: ["/512-x-512.png"], 
   },
   themeColor: "#ffffff",
   icons: {
     icon: [
-      { url: "/16 X 16.png", sizes: "16x16", type: "image/png" },
-      { url: "/32 X 32.png", sizes: "32x32", type: "image/png" },
-      { url: "/48 X 48.png", sizes: "48x48", type: "image/png" },
-      { url: "/180 X 180.png", sizes: "180x180", type: "image/png" },
-      { url: "/512 X 512.png", sizes: "512x152", type: "image/png" },
+      { url: "/16-x-16.png",   sizes: "16x16",   type: "image/png" }, 
+      { url: "/32-x-32.png",   sizes: "32x32",   type: "image/png" },
+      { url: "/48-x-48.png",   sizes: "48x48",   type: "image/png" },
+      { url: "/180-x-180.png", sizes: "180x180", type: "image/png" },
+      { url: "/512-x-512.png", sizes: "512x512", type: "image/png" }, 
     ],
     shortcut: ["/favicon.ico"],
     apple: [{ url: "/favicon.png" }],
   },
 };
-
-
 
 export default function RootLayout({
   children,
