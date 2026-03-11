@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Atheko",
     images: [
       {
-        url: "/favicon.png",
+        url: "/48 X 48.png",
         width: 50,
         height: 50,
         alt: "Atheko Logo",
