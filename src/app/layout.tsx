@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     keywords:
       "Laundry service in Kozhikode, Premium laundry Kozhikode, Dry cleaning Kozhikode, Steam ironing Kozhikode, Wash and fold service in Calicut, Best laundry in Kozhikode, Affordable laundry Kozhikode, Laundry pickup and delivery Kozhikode, Professional laundry Kozhikode, Laundry service in Calicut city, Top laundry in Calicut, Best dry cleaning in Calicut",
   },
+  verification: {
+    google: "IMpg2sqYiUX0s0LFBmtikpIvKOFp-o0oudbONKNWvGI",
+  },
   openGraph: {
     title: "Atheko Premium Laundry",
     description:
