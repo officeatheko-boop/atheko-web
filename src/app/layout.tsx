@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     siteName: "Atheko",
     images: [
       {
-        url: "/512-x-512.png", 
-        width: 512,
-        height: 512,
+        url: "/og-image.png", 
+        width: 1200,
+        height: 630,
         alt: "Atheko Logo",
       },
     ],
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Atheko Premium Laundry",
     description:
       "Premium laundry service in Kozhikode with dry cleaning, steam ironing, and pickup & delivery.",
-    images: ["/512-x-512.png"], 
+    images: ["/og-image.png"], 
   },
   themeColor: "#ffffff",
   icons: {
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
       { url: "/512-x-512.png", sizes: "512x512", type: "image/png" }, 
     ],
     shortcut: ["/favicon.ico"],
-    // apple: [{ url: "/favicon.png" }],
+    apple: [{ url: "/favicon.png" }],
   },
 };
 
