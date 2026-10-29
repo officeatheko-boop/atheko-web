@@ -89,9 +89,11 @@ const Footer = () => {
                     <ul className={`${inter.className}  text-sm  transition-all duration-500`}>
                         <li className="mb-6"><Link href="/"  className="text-gray-600 hover:text-gray-900">Home</Link></li>
                         <li className="mb-6"><Link href="/about"  className=" text-gray-600 hover:text-gray-900">About</Link></li>
-                        <li className="mb-6"><Link href="/service"  className=" text-gray-600 hover:text-gray-900">Service</Link></li>
+                        <li className="mb-6"><Link href="/services"  className=" text-gray-600 hover:text-gray-900">Service</Link></li>
                         <li className="mb-6"><Link href="/contact"  className=" text-gray-600 hover:text-gray-900">Contact Us</Link></li>
                         <li className="mb-6"><Link href="/blog"  className=" text-gray-600 hover:text-gray-900">Blog</Link></li>
+                        <li className="mb-6"><Link href="/privacy-policy"  className=" text-gray-600 hover:text-gray-900">Privacy Policy</Link></li>
+                        <li className="mb-6"><Link href="/delete-account"  className=" text-gray-600 hover:text-gray-900">Delete Account</Link></li>
                     </ul>
                 </div>
  
@@ -127,8 +129,16 @@ const Footer = () => {
             </div>
    
             <div className="py-7 border-t border-gray-200">
-                <div className="flex  items-center gap-5    justify-center flex-col lg:justify-start lg:flex-row">
-                    <span className={`${inter.className} text-sm text-gray-500`}>©Atheko 2025, All rights reserved.</span>
+                <div className="flex  items-center gap-5    justify-center flex-col lg:justify-between lg:flex-row">
+                    <div className="flex flex-col sm:flex-row items-center gap-3">
+                        <span className={`${inter.className} text-sm text-gray-500`}>©Atheko 2026, All rights reserved.</span>
+                        <div className="hidden sm:inline text-gray-300">•</div>
+                        <div className="flex items-center gap-3 text-xs text-gray-500">
+                            <Link href="/privacy-policy" className="hover:text-gray-900 transition-colors">Privacy Policy</Link>
+                            <span>•</span>
+                            <Link href="/delete-account" className="hover:text-gray-900 transition-colors">Account Deletion</Link>
+                        </div>
+                    </div>
                     <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                      <a
                         href="https://www.instagram.com/atheko_premium_laundry/profilecard/?igsh=eTg5Zno0dngxZ3Zt"
